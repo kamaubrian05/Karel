@@ -15,10 +15,14 @@ public class CollectNewspaperKarel extends Karel {
 	{
 		for(int i =0;i<2;i++){
 		move();
-		//turnLeft();
+		turnRight();
 		}
 	}
 	
-	// You fill in this part
-	
+	private void turnRight()
+	{
+		for(int i = 0;i<3;i++){
+			turnLeft();
+		}
+	}
 }
