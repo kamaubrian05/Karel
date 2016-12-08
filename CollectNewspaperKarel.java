@@ -22,11 +22,17 @@ public class CollectNewspaperKarel extends Karel {
 		turnLeft();
 		move();
 		pickBeeper();
+		turnAround();
 	}
 	
 	private void turnRight()
 	{
 		for(int i = 0;i<3;i++){
+			turnLeft();
+		}
+	}
+	private void turnAround(){
+		for(int i =0;i<4;i++){
 			turnLeft();
 		}
 	}
