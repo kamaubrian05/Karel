@@ -23,6 +23,9 @@ public class CollectNewspaperKarel extends Karel {
 		pickBeeper();
 		turnAround();
 		sprint();
+		move();
+		turnRight();
+		move();
 		
 	}
 	
