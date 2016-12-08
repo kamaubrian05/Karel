@@ -20,6 +20,8 @@ public class CollectNewspaperKarel extends Karel {
 		turnRight();
 		move();
 		turnLeft();
+		move();
+		pickBeeper();
 	}
 	
 	private void turnRight()
